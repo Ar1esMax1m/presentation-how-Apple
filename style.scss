@@ -1,0 +1,81 @@
+.userflow-wrapper {
+  width: 100%;
+}
+.userflow {
+  width: 100%;
+  background-color: black;
+  height: auto;
+  position: relative;
+  padding-top: 20px;
+  overflow: hidden;
+}
+.userflow__block .title {
+  font-size: 3em;
+  font-family: "Roboto-condensed";
+  font-weight: bold;
+}
+.userflow__block li {
+  margin-bottom: 10px;
+
+  font-size: 1.3em;
+  font-family: "Roboto-condensed";
+  // font-weight: bold;
+}
+.userflow__section {
+  display: flex;
+  justify-content: space-between;
+}
+.userflow__section .img-wrapper {
+  //max-height: 70vh;
+  width: 60%;
+  max-height: 100vh;
+}
+.userflow__section .text-wrapper {
+  z-index: 1;
+  width: 40%;
+}
+.userflow__section img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.section-title .img-wrapper {
+  order: 1;
+}
+.section-title .text-wrapper {
+  order: 2;
+}
+.section-description .img-wrapper {
+  order: 2;
+}
+.section-description .text-wrapper {
+  order: 1;
+}
+.section-sub-description {
+  justify-content: center;
+  position: relative;
+}
+.section-sub-description .img-wrapper {
+  width: 50%;
+}
+.section-sub-description .text-wrapper {
+  position: absolute;
+  text-align: center;
+}
+.userflow__img {
+  display: block;
+}
+.t-col {
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+}
+.text-wrapper .title,
+.text-wrapper .description,
+.text-wrapper .userflow__list > li,
+.text-wrapper p {
+  // font-size: 1.2em;
+  // margin: 0;
+  z-index: 1;
+  color: white;
+}
